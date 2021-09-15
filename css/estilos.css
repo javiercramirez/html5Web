@@ -1,0 +1,203 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* las cajas no se sobrepongan unas con otras */
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Lora', serif;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+    
+    /* para que todo se adapte segun el tamaño establecido */
+}
+.margen-interno{
+    padding: 0 50px;
+}
+
+/* modificar fondo en el header */
+    .header{
+    background:url(../images/43393.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    }
+         .menu{
+        background: rgba(0,0,0,.1);
+        display: flex;
+        flex-flow: row nowrap;
+         height: 60px;
+        align-items: center;
+        border-bottom: 1px solid rgb(255,255,255,.5);
+        }
+        /* quotar la altura de logo y nav  */
+             .logo{
+                flex:1 1 auto;
+            }
+            .logo a{
+                color:#fff;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .logo a:hover{
+                color:#343434
+            }
+            .nav{
+         
+            flex:5 1 auto;
+            }
+
+            .nav a{
+                color:#fff;
+                font-size: 11px;
+                text-transform: uppercase;
+                /* uppercase para que sean mayusculas */
+                padding: 0 10px;
+                letter-spacing: 2px;
+                /* separacion de las letrasen 2 px cada una  */
+            }
+
+            nav a:hover{
+                color:#343434
+            }
+            .social{
+            flex:1 1 auto;
+            display: flex;
+            } 
+
+            .social a{
+                font-size: 18px;
+                color:#fff;
+                padding: 0 5;
+            }
+
+            .social a:hover{
+                color:#343434
+            }
+        /* hasta aqui se visualiza el primer bloque  */
+        .texto-principal{
+            /* background: #112031; */
+            height: 580px;
+            display: flex;
+            align-items: center;
+        }
+        h1{
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           font-size: 21px;
+           color:#fff;
+           font-weight: 300;
+           text-align: center;
+           line-height: 1.6;
+
+        }
+.section{
+    background: url(../images/43393.jpg);
+    display: flex;
+}
+
+    .articulos{
+        background: rgb(44, 46, 67,.5);
+        flex: 2 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .article{
+            flex:1 1 40%;
+            color:#fff;
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin: 10px 10px 0 0px;
+            flex: 1 1 45%;
+            background: #2C2E43;
+        }
+        .article img{
+            width: 100%;
+        }
+
+        .article a{
+            color:#fff;
+            font-size: 13px;
+            padding: 10px;
+            background: #000;
+            margin: 10px 0;
+            display: inline-block;
+        }
+        .article a:hover{
+            background: #546cc3;
+        }
+        h3{
+            color:#fff;
+            font-size: 13px;
+            padding: 10px;
+            margin-top: -80px;
+        }
+
+        h2{
+            font-size: 25px;
+            text-transform: uppercase;
+            padding: 0px 0 10px 0;
+            color:#fff
+        }
+        .navegacion{
+            background: #000;
+            flex:1 1 100%;
+            margin: 10px 10 px 0 0px;
+        }
+
+        .navegacion a{
+            color:#fff;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 0 10 px;
+            letter-spacing: 2px;
+        }
+    .aside{
+        /* background: #3B185F; */
+        flex: 1 1 auto;
+        margin: 10px 5 px 10 px 0;
+    }
+    h4{
+        background: #000;
+        color:#fff;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .aside img{
+        width: 100%;
+    }
+/* .publicidad{ */
+    /* background: #FEC260; */
+/* } */
+
+/* ultima seccion  */
+.footer{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.pie{
+    /* background: #3E00FF; */
+    /* width: 300px; */
+    text-align: center;
+    display: flex;
+
+    
+}
+.pie a{
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+
+
