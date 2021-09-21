@@ -89,6 +89,21 @@ body{
             display: flex;
             align-items: center;
         }
+        .texto-nosotros{
+            /* background: #112031; */
+            height: 580px;
+            display: flex;
+            align-items: center;
+            line-height: 4.6;
+        }
+        h6{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 21px;
+            color:#fff;
+            font-weight: 300;
+            text-align: center;
+            line-height: 1.6;
+         }
         h1{
            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
            font-size: 21px;
@@ -96,7 +111,6 @@ body{
            font-weight: 300;
            text-align: center;
            line-height: 1.6;
-
         }
 .section{
     background: url(../images/43393.jpg);
